@@ -40,4 +40,3 @@ export const lexicalPatterns = [
 ];
 
 export const subjectLabels: Record<Subject,string> = {je:"je",tu:"tu",il:"il",elle:"elle",nous:"nous",vous:"vous",ils:"ils",elles:"elles"};
-
