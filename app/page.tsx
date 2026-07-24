@@ -345,7 +345,7 @@ export default function Home() {
     const correct=normalize(timeAnswer)===normalize(timeExercise.answer);
     setTimeResult(correct?"correct":"wrong"); setTimeAttempts(attempts=>attempts+1);
     const next=correct?timeWrongIds.filter(id=>id!==timeExercise.id):Array.from(new Set([...timeWrongIds,timeExercise.id]));
-    setTimeWrongIds(next);localStorage.setItem("bravo-time-errors",JSON.stringify(next));recordAttempt(\`time-\${timeExercise.id}\`,correct);
+    setTimeWrongIds(next);localStorage.setItem("bravo-time-errors",JSON.stringify(next));recordAttempt("time-"+timeExercise.id,correct);
   }
   function nextTimeExercise(){setTimeIndex(i=>(i+1)%activeTimeExercises.length);resetTimeExercise();}
   function chooseStory(id:string) { setStoryId(id); setStorySentenceIndex(0); setStoryRecall(""); setStoryRecallResult(null); setHeard(""); setAudioStatus(""); }
