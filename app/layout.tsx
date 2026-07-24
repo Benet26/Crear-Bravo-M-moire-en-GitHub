@@ -8,11 +8,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol = h.get("x-forwarded-proto") || (host.includes("localhost") ? "http" : "https");
   const image = `${protocol}://${host}/og.png`;
   return {
-    title: "Bravo MÃ©moire â€” FranÃ§ais A1 & A2",
-    description: "Retrouvez votre franÃ§ais chaque jour avec la rÃ©pÃ©tition espacÃ©e et la pratique de prononciation.",
+    title: "Bravo Mémoire — Français A1 & A2",
+    description: "Retrouvez votre français chaque jour avec la répétition espacée et la pratique de prononciation.",
     manifest: "/manifest.webmanifest",
-    openGraph: { title: "Bravo MÃ©moire", description: "Retrouvez votre franÃ§ais, chaque jour.", images: [image] },
-    twitter: { card: "summary_large_image", title: "Bravo MÃ©moire", description: "Retrouvez votre franÃ§ais, chaque jour.", images: [image] },
+    openGraph: { title: "Bravo Mémoire", description: "Retrouvez votre français, chaque jour.", images: [image] },
+    twitter: { card: "summary_large_image", title: "Bravo Mémoire", description: "Retrouvez votre français, chaque jour.", images: [image] },
   };
 }
 export const viewport: Viewport = { themeColor: "#132842", width: "device-width", initialScale: 1 };
@@ -20,4 +20,3 @@ export const viewport: Viewport = { themeColor: "#132842", width: "device-width"
 export default function RootLayout({children}:{children:React.ReactNode}) {
   return <html lang="fr"><body>{children}</body></html>;
 }
-
