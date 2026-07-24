@@ -146,4 +146,3 @@ export const stories: Story[] = [
     {infinitive:"organiser",form:"avons organisÃ©",person:"nous",tense:"passÃ© composÃ©",es:"organizar"},{infinitive:"venir",form:"sont venus",person:"ils",tense:"passÃ© composÃ©",es:"venir"},{infinitive:"proposer",form:"avez proposÃ©",person:"vous",tense:"passÃ© composÃ©",es:"proponer"},{infinitive:"sâ€™occuper",form:"sâ€™occupe",person:"chacun",tense:"prÃ©sent",es:"ocuparse"},{infinitive:"partager",form:"partagent",person:"ils",tense:"prÃ©sent",es:"compartir"},{infinitive:"installer",form:"allons installer",person:"nous",tense:"futur proche",es:"instalar"}
   ]}
 ];
-
