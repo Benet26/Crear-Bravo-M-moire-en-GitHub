@@ -140,7 +140,344 @@ const practiceMeta: Record<PracticeCategory,{title:string;icon:string;descriptio
 
 const tcfTasks: TcfTask[] = [
   {id:"tache1",number:"01",title:"Le message",words:"60 Ã  120 mots",min:60,max:120,goal:"Raconter, dÃ©crire ou expliquer clairement Ã  un destinataire prÃ©cis.",steps:["Salutation et objet du message","Annonce rapide de la raison","Informations utiles et dÃ©tails concrets","Invitation Ã  rÃ©pondre","Formule finale et signature"],phrases:["Je tâ€™Ã©cris pour te parler deâ€¦","Que dirais-tu deâ€¦ ?","Je te recommande vivement deâ€¦","Fais-moi savoir ce que tu en penses.","Nâ€™hÃ©site pas Ã  mâ€™Ã©crire.","Ã€ trÃ¨s bientÃ´t,"],topics:["Invitez des amis Ã  une fÃªte de fin dâ€™examens avec une date, un lieu et un thÃ¨me.","Proposez un pique-nique et prÃ©cisez le programme et ce que chacun doit apporter.","Conseillez un ami qui souhaite amÃ©liorer son franÃ§ais.","Recommandez une activitÃ© culturelle dÃ©couverte rÃ©cemment.","Ã‰crivez Ã  un voisin pour rÃ©soudre poliment un problÃ¨me de bruit.","Cherchez un colocataire et prÃ©sentez le logement et vos attentes.","Invitez un groupe Ã  participer Ã  une action Ã©cologique.","Demandez des conseils pour prÃ©parer un voyage au Canada."]},
-  {id:"tache2",number:"02",title:"Le rÃ©cit",words:"120 Ã  150 mots",min:120,max:150,goal:"Raconter une expÃ©rience, exprimer ses impressions et donner envie de la dÃ©couvrir.",steps:["Titre accrocheur","Introduction et contexte","DÃ©roulement en plusieurs Ã©tapes","Moment marquant et Ã©motions","Conclusion et recommandation"],phrases:["RÃ©cemment, jâ€™ai eu lâ€™occasion deâ€¦","Tout dâ€™abordâ€¦ Ensuiteâ€¦ Enfinâ€¦","Ce qui mâ€™a particuliÃ¨rement marquÃ©, câ€™estâ€¦","Ã€ ma grande surpriseâ€¦","Cette expÃ©rience mâ€™a permis deâ€¦","Je recommande vivement cette activitÃ©."],topics:["Racontez une randonnÃ©e mÃ©morable dans un parc canadien.","PrÃ©sentez un atelier crÃ©atif qui vous a surpris.","DÃ©crivez une semaine avec moins dâ€™Ã©crans et ses effets.","Partagez une expÃ©rience de bÃ©nÃ©volat enrichissante.","Racontez la dÃ©couverte dâ€™un marchÃ© ou dâ€™un restaurant original.","PrÃ©sentez une activitÃ© Ã©cologique utile Ã  votre quartier.","DÃ©crivez une exposition ou un festival qui vous a marquÃ©.","Racontez une activitÃ© sportive essayÃ©e pour la premiÃ¨re fois.…9667 tokens truncated…nsform"?"TRANSFORMER":"RETROUVER"}</p><h2>{courseExercise.prompt}</h2>
+  {id:"tache2",number:"02",title:"Le rÃ©cit",words:"120 Ã  150 mots",min:120,max:150,goal:"Raconter une expÃ©rience, exprimer ses impressions et donner envie de la dÃ©couvrir.",steps:["Titre accrocheur","Introduction et contexte","DÃ©roulement en plusieurs Ã©tapes","Moment marquant et Ã©motions","Conclusion et recommandation"],phrases:["RÃ©cemment, jâ€™ai eu lâ€™occasion deâ€¦","Tout dâ€™abordâ€¦ Ensuiteâ€¦ Enfinâ€¦","Ce qui mâ€™a particuliÃ¨rement marquÃ©, câ€™estâ€¦","Ã€ ma grande surpriseâ€¦","Cette expÃ©rience mâ€™a permis deâ€¦","Je recommande vivement cette activitÃ©."],topics:["Racontez une randonnÃ©e mÃ©morable dans un parc canadien.","PrÃ©sentez un atelier crÃ©atif qui vous a surpris.","DÃ©crivez une semaine avec moins dâ€™Ã©crans et ses effets.","Partagez une expÃ©rience de bÃ©nÃ©volat enrichissante.","Racontez la dÃ©couverte dâ€™un marchÃ© ou dâ€™un restaurant original.","PrÃ©sentez une activitÃ© Ã©cologique utile Ã  votre quartier.","DÃ©crivez une exposition ou un festival qui vous a marquÃ©.","Racontez une activitÃ© sportive essayÃ©e pour la premiÃ¨re fois."]},
+  {id:"tache3",number:"03",title:"SynthÃ¨se & opinion",words:"120 Ã  180 mots",min:120,max:180,goal:"RÃ©sumer deux points de vue sans juger, puis dÃ©fendre une position personnelle nuancÃ©e.",steps:["Titre pertinent","SynthÃ¨se neutre des deux documents (40 Ã  60 mots)","Position personnelle claire (80 Ã  120 mots)","Arguments et exemple concret","Nuance, solution et conclusion"],phrases:["La question deâ€¦ divise les opinions.","Dâ€™un cÃ´tÃ©, le premier documentâ€¦","En revanche, le second souligneâ€¦","Ã€ mon avisâ€¦","Il est vrai queâ€¦, maisâ€¦","En sommeâ€¦"],topics:["Les animaux domestiques sont-ils bÃ©nÃ©fiques Ã  la vie de famille ?","Les devoirs aprÃ¨s la classe sont-ils vraiment nÃ©cessaires ?","La micro-sieste devrait-elle Ãªtre autorisÃ©e en entreprise ?","Les jeux vidÃ©o enrichissent-ils le quotidien des enfants ?","Le tÃ©lÃ©travail amÃ©liore-t-il durablement la vie professionnelle ?","Faut-il proposer davantage de repas vÃ©gÃ©tariens Ã  la cantine ?","Les rÃ©seaux sociaux devraient-ils Ãªtre davantage limitÃ©s ?","La vie en colocation apporte-t-elle plus dâ€™avantages que de contraintes ?"]},
+];
+
+const day = 86400000;
+const defaultMemory = (): Memory[string] => ({ due: 0, interval: 0, ease: 2.5, reviews: 0 });
+export default function Home() {
+  const [now] = useState(() => Date.now());
+  const [view, setView] = useState<"home"|"learn"|"stories"|"study"|"practice"|"verbs"|"tcf"|"time"|"themes"|"progress">("home");
+  const [level, setLevel] = useState<"Tous"|"A1"|"A2"|"Verbes">("Tous");
+  const [memory, setMemory] = useState<Memory>({});
+  const [index, setIndex] = useState(0);
+  const [revealed, setRevealed] = useState(false);
+  const [heard, setHeard] = useState("");
+  const [speechTarget, setSpeechTarget] = useState("");
+  const [listening, setListening] = useState(false);
+  const [audioStatus, setAudioStatus] = useState("");
+  const [streak, setStreak] = useState(0);
+  const [todayReviews, setTodayReviews] = useState(0);
+  const [practiceCategory, setPracticeCategory] = useState<PracticeCategory>("verbes");
+  const [practiceIndex, setPracticeIndex] = useState(0);
+  const [practiceInput, setPracticeInput] = useState("");
+  const [practiceResult, setPracticeResult] = useState<"correct"|"wrong"|null>(null);
+  const [meaningLang, setMeaningLang] = useState<"en"|"es"|null>(null);
+  const [practiceScore, setPracticeScore] = useState({correct:0,total:0});
+  const [verbId, setVerbId] = useState("parler");
+  const [verbSubject, setVerbSubject] = useState<Subject>("je");
+  const [verbTense, setVerbTense] = useState<Tense>("prÃ©sent");
+  const [verbAnswer, setVerbAnswer] = useState("");
+  const [verbResult, setVerbResult] = useState<"correct"|"wrong"|null>(null);
+  const [verbStats, setVerbStats] = useState({correct:0,total:0});
+  const [cloudSession, setCloudSession] = useState<CloudSession|null>(null);
+  const [cloudEmail, setCloudEmail] = useState("");
+  const [cloudStatus, setCloudStatus] = useState("");
+  const [learnLevel, setLearnLevel] = useState<"A1"|"A2"|"B1">("A1");
+  const [lessonId, setLessonId] = useState("a1-alphabet");
+  const [completedLessons, setCompletedLessons] = useState<string[]>([]);
+  const [practiceTrack, setPracticeTrack] = useState<"course"|"reflexes">("course");
+  const [courseLevel, setCourseLevel] = useState<"Tous"|"A1"|"A2"|"B1">("Tous");
+  const [courseIndex, setCourseIndex] = useState(0);
+  const [courseInput, setCourseInput] = useState("");
+  const [courseResult, setCourseResult] = useState<"correct"|"wrong"|null>(null);
+  const [courseSelected, setCourseSelected] = useState<number[]>([]);
+  const [courseStats, setCourseStats] = useState({correct:0,total:0});
+  const [storyLevel, setStoryLevel] = useState<"Tous"|"A1"|"A2"|"A2+">("Tous");
+  const [storyId, setStoryId] = useState(stories[0].id);
+  const [storyTranslation, setStoryTranslation] = useState(false);
+  const [storyVerbs, setStoryVerbs] = useState(true);
+  const [storySentenceIndex, setStorySentenceIndex] = useState(0);
+  const [storyRecall, setStoryRecall] = useState("");
+  const [storyRecallResult, setStoryRecallResult] = useState<"correct"|"wrong"|null>(null);
+  const [completedStories, setCompletedStories] = useState<string[]>([]);
+  const [tcfTaskId, setTcfTaskId] = useState<TcfTaskId>("tache1");
+  const [tcfTopic, setTcfTopic] = useState(0);
+  const [tcfDrafts, setTcfDrafts] = useState<Partial<Record<TcfTaskId,string>>>({});
+  const [tcfChecks, setTcfChecks] = useState([false,false,false,false]);
+  const [tcfMode, setTcfMode] = useState<"method"|"guided"|"write"|"simulate">("method");
+  const [tcfDrillIndex, setTcfDrillIndex] = useState(0);
+  const [tcfDrillAnswer, setTcfDrillAnswer] = useState("");
+  const [simulationDrafts, setSimulationDrafts] = useState(["","",""]);
+  const [timeLessonId,setTimeLessonId]=useState("duration");
+  const [timeIndex,setTimeIndex]=useState(0);
+  const [timeAnswer,setTimeAnswer]=useState("");
+  const [timeResult,setTimeResult]=useState<"correct"|"wrong"|null>(null);
+  const [timeTokens,setTimeTokens]=useState<string[]>([]);
+  const [timeAttempts,setTimeAttempts]=useState(0);
+  const [timeWrongIds,setTimeWrongIds]=useState<string[]>([]);
+  const [timeOnlyErrors,setTimeOnlyErrors]=useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    queueMicrotask(() => {
+      try {
+        const saved = JSON.parse(localStorage.getItem("bravo-memoire") || "") as SavedProgress;
+        setMemory(saved.memory || {}); setStreak(saved.streak || 0); setTodayReviews(saved.todayReviews || 0);
+      } catch { /* A fresh start is valid. */ }
+      try { setTcfDrafts(JSON.parse(localStorage.getItem("bravo-tcf-drafts") || "{}")); } catch { /* Drafts are optional. */ }
+      try { setCompletedLessons(JSON.parse(localStorage.getItem("bravo-lessons") || "[]")); } catch { /* Lesson progress is optional. */ }
+      try { setCourseStats(JSON.parse(localStorage.getItem("bravo-course-stats") || '{"correct":0,"total":0}')); } catch { /* Exercise stats are optional. */ }
+      try { setCompletedStories(JSON.parse(localStorage.getItem("bravo-stories") || "[]")); } catch { /* Story progress is optional. */ }
+      try { setVerbStats(JSON.parse(localStorage.getItem("bravo-verb-stats") || '{"correct":0,"total":0}')); } catch { /* Verb stats are optional. */ }
+      try { setTimeWrongIds(JSON.parse(localStorage.getItem("bravo-time-errors") || "[]")); } catch { /* Time errors are optional. */ }
+      const savedSession = readSession();
+      if (savedSession) identify(savedSession).then(async session => {
+        if (!session) return;
+        setCloudSession(session);
+        const state = await loadCloudState(session).catch(() => null);
+        const hydrationKey=`bravo-supabase-loaded-${session.user.id}`;
+        if (state && !sessionStorage.getItem(hydrationKey)) { Object.entries(state).forEach(([key, value]) => localStorage.setItem(key, value)); sessionStorage.setItem(hydrationKey,"1"); window.location.reload(); }
+      }).catch(() => {});
+    });
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => {});
+  }, []);
+
+  const studyCards = useMemo(() => {
+    const filtered = level === "Verbes" ? verbCards : level === "Tous" ? cards : cards.filter(c => c.level === level);
+    return [...filtered].sort((a,b) => (memory[a.id]?.due ?? 0) - (memory[b.id]?.due ?? 0));
+  }, [level, memory]);
+  const card = studyCards[index % studyCards.length];
+  const learned = cards.filter(c => (memory[c.id]?.reviews || 0) >= 2).length;
+  const due = cards.filter(c => (memory[c.id]?.due || 0) <= now).length;
+  const percent = Math.round((learned / cards.length) * 100);
+  const dayLabel = new Intl.DateTimeFormat("fr-FR", { weekday: "long" }).format(now).toUpperCase();
+
+  function persist(next: Memory, reviews = todayReviews + 1) {
+    const nextStreak = reviews === 1 ? Math.max(streak, 1) : streak;
+    setMemory(next); setTodayReviews(reviews); setStreak(nextStreak);
+    localStorage.setItem("bravo-memoire", JSON.stringify({memory:next, todayReviews:reviews, streak:nextStreak}));
+    queueCloudSync();
+  }
+  function queueCloudSync() {
+    window.setTimeout(() => {
+      if (!cloudSession) return;
+      const keys=["bravo-memoire","bravo-lessons","bravo-stories","bravo-course-stats","bravo-verb-stats","bravo-learning-record","bravo-tcf-drafts","bravo-time-errors"];
+      const payload=Object.fromEntries(keys.map(key=>[key,localStorage.getItem(key)||""]));
+      saveCloudState(cloudSession,payload).then(()=>setCloudStatus("Progreso sincronizado")).catch(()=>setCloudStatus("No se pudo sincronizar todavÃ­a"));
+    },0);
+  }
+  async function connectCloud(event: React.FormEvent) {
+    event.preventDefault(); if (!cloudEmail.trim()) return;
+    try { await sendMagicLink(cloudEmail.trim()); setCloudStatus("Revisa tu correo: te enviÃ© un enlace para entrar."); }
+    catch { setCloudStatus("No pude enviar el enlace. Revisa la configuraciÃ³n de Supabase."); }
+  }
+  function rate(quality: 1|3|5) {
+    const old = memory[card.id] || defaultMemory();
+    const interval = quality === 1 ? 0 : old.reviews === 0 ? 1 : old.reviews === 1 ? 3 : Math.max(1, Math.round(old.interval * (quality === 5 ? old.ease : 1.25)));
+    const ease = Math.max(1.3, old.ease + (quality === 1 ? -0.2 : quality === 5 ? 0.1 : 0));
+    persist({...memory, [card.id]: {due: Date.now() + (quality === 1 ? 60000 : interval * day), interval, ease, reviews:old.reviews + 1}});
+    setRevealed(false); setHeard(""); setAudioStatus(""); setIndex(i => (i + 1) % studyCards.length);
+  }
+  function playAudio(slow=false) {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.pause();
+    audio.currentTime = 0;
+    audio.playbackRate = slow ? .72 : 1;
+    setAudioStatus(slow ? "Lecture lenteâ€¦" : "Lectureâ€¦");
+    audio.play().catch(() => setAudioStatus("Pulsa â–¶ en el reproductor para autorizar el sonido."));
+  }
+  function speakText(text:string, slow=false) {
+    if (!("speechSynthesis" in window)) { setAudioStatus("Tu navegador no permite la voz integrada. Prueba en Chrome, Edge o Safari."); return; }
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "fr-FR";
+    utterance.rate = slow ? .72 : 1;
+    const frenchVoice = window.speechSynthesis.getVoices().find(voice=>voice.lang.toLowerCase().startsWith("fr"));
+    if (frenchVoice) utterance.voice = frenchVoice;
+    utterance.onstart=()=>setAudioStatus(slow?"Lecture lenteâ€¦":"Lectureâ€¦");
+    utterance.onend=()=>setAudioStatus("");
+    utterance.onerror=()=>setAudioStatus("No pude iniciar la voz. Prueba nuevamente con el botÃ³n Ã‰couter.");
+    window.speechSynthesis.speak(utterance);
+  }
+  function speakStory(slow=false) { speakText(story.sentences.map(sentence=>sentence.fr).join(" "), slow); }
+  function record(target:string) {
+    const W = window as typeof window & {webkitSpeechRecognition?: new()=>RecognitionLike; SpeechRecognition?: new()=>RecognitionLike};
+    const Recognition = W.SpeechRecognition || W.webkitSpeechRecognition;
+    if (!Recognition) { setHeard("Este visor no permite usar el micrÃ³fono. Abre la app directamente en Chrome, Edge o Safari."); return; }
+    setSpeechTarget(target);
+    const rec = new Recognition(); rec.lang="fr-FR"; rec.interimResults=false;
+    rec.onstart=()=>setListening(true); rec.onend=()=>setListening(false);
+    rec.onresult=(e:RecognitionEventLike)=>setHeard(e.results[0][0].transcript);
+    rec.onerror=()=>{setListening(false);setHeard("No pude acceder al micrÃ³fono. Revisa su permiso en Chrome, Edge o Safari.");}; rec.start();
+  }
+  function normalize(s:string) { return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z ]/g," ").replace(/\s+/g," ").trim(); }
+  function storyText(text:string) {
+    const forms=story.verbs.map(verb=>verb.form).sort((a,b)=>b.length-a.length);
+    const pattern=new RegExp(`(?<![\\p{L}])(${forms.map(form=>form.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")})(?![\\p{L}])`,"giu");
+    return text.split(pattern).map((part,i)=>forms.some(form=>form.toLocaleLowerCase("fr")===part.toLocaleLowerCase("fr"))?<mark key={`${part}-${i}`}>{part}</mark>:part);
+  }
+  function choosePractice(category: PracticeCategory) {
+    setPracticeCategory(category); setPracticeIndex(0); setPracticeInput(""); setPracticeResult(null); setMeaningLang(null);
+  }
+  function checkPractice(event: React.FormEvent) {
+    event.preventDefault();
+    if (!practiceInput.trim() || practiceResult) return;
+    const correct = normalize(practiceInput) === normalize(practiceSets[practiceCategory][practiceIndex].answer);
+    setPracticeResult(correct ? "correct" : "wrong");
+    setPracticeScore(score=>({correct:score.correct+(correct?1:0),total:score.total+1}));
+    recordAttempt(`reflex-${practiceCategory}-${practiceIndex}`, correct);
+  }
+  function nextPractice() {
+    const list = practiceSets[practiceCategory];
+    setPracticeIndex(index=>(index+1)%list.length); setPracticeInput(""); setPracticeResult(null); setMeaningLang(null);
+  }
+  function toggleLesson(id:string) {
+    const next=completedLessons.includes(id)?completedLessons.filter(item=>item!==id):[...completedLessons,id];
+    setCompletedLessons(next); localStorage.setItem("bravo-lessons",JSON.stringify(next)); queueCloudSync();
+  }
+  function resetCourseExercise() { setCourseInput(""); setCourseResult(null); setCourseSelected([]); }
+  function checkCourseExercise() {
+    if (!courseInput.trim() || courseResult) return;
+    const correct=normalize(courseInput)===normalize(courseExercise.answer);
+    setCourseResult(correct?"correct":"wrong");
+    const next={correct:courseStats.correct+(correct?1:0),total:courseStats.total+1};
+    setCourseStats(next); localStorage.setItem("bravo-course-stats",JSON.stringify(next)); queueCloudSync();
+    recordAttempt(`course-${courseExercise.id}`, correct);
+  }
+  function nextCourseExercise() { setCourseIndex(index=>(index+1)%filteredCourseExercises.length); resetCourseExercise(); }
+  function resetTimeExercise(){setTimeAnswer("");setTimeResult(null);setTimeTokens([]);setTimeAttempts(0);}
+  function chooseTimeLesson(id:string){setTimeLessonId(id);setTimeIndex(0);setTimeOnlyErrors(false);resetTimeExercise();}
+  function checkTimeExercise(){
+    if(!timeAnswer.trim()||timeResult) return;
+    const correct=normalize(timeAnswer)===normalize(timeExercise.answer);
+    setTimeResult(correct?"correct":"wrong"); setTimeAttempts(attempts=>attempts+1);
+    const next=correct?timeWrongIds.filter(id=>id!==timeExercise.id):Array.from(new Set([...timeWrongIds,timeExercise.id]));
+    setTimeWrongIds(next);localStorage.setItem("bravo-time-errors",JSON.stringify(next));recordAttempt(\`time-\${timeExercise.id}\`,correct);
+  }
+  function nextTimeExercise(){setTimeIndex(i=>(i+1)%activeTimeExercises.length);resetTimeExercise();}
+  function chooseStory(id:string) { setStoryId(id); setStorySentenceIndex(0); setStoryRecall(""); setStoryRecallResult(null); setHeard(""); setAudioStatus(""); }
+  function checkStoryRecall() { if (!storyRecall.trim()) return; const correct=normalize(storyRecall)===normalize(story.sentences[storySentenceIndex].fr); setStoryRecallResult(correct?"correct":"wrong"); recordAttempt(`story-${story.id}-${storySentenceIndex}`,correct); }
+  function recordAttempt(id:string, correct:boolean) {
+    const key="bravo-learning-record";
+    const saved=JSON.parse(localStorage.getItem(key)||"{}") as Record<string,{correct:number;wrong:number;due:number}>;
+    const old=saved[id]||{correct:0,wrong:0,due:0};
+    saved[id]={correct:old.correct+(correct?1:0),wrong:old.wrong+(correct?0:1),due:Date.now()+(correct?3*day:10*60000)};
+    localStorage.setItem(key,JSON.stringify(saved));
+    queueCloudSync();
+  }
+  function checkVerb(event: React.FormEvent) {
+    event.preventDefault(); if (!verbAnswer.trim()||verbResult) return;
+    const correct=normalize(verbAnswer)===normalize(verb.forms[verbTense][verbSubject]);
+    setVerbResult(correct?"correct":"wrong");
+    const next={correct:verbStats.correct+(correct?1:0),total:verbStats.total+1};
+    setVerbStats(next); localStorage.setItem("bravo-verb-stats",JSON.stringify(next)); queueCloudSync();
+    recordAttempt(`verb-${verb.id}-${verbTense}-${verbSubject}`,correct);
+  }
+  function moveStorySentence(direction:number) { setStorySentenceIndex(index=>(index+direction+story.sentences.length)%story.sentences.length); setStoryRecall(""); setStoryRecallResult(null); setHeard(""); }
+  function toggleStoryComplete(id:string) { const next=completedStories.includes(id)?completedStories.filter(item=>item!==id):[...completedStories,id]; setCompletedStories(next); localStorage.setItem("bravo-stories",JSON.stringify(next)); queueCloudSync(); }
+  function chooseTcfTask(id:TcfTaskId) { setTcfTaskId(id); setTcfTopic(0); setTcfChecks([false,false,false,false]); setTcfDrillIndex(0); setTcfDrillAnswer(""); }
+  function updateTcfDraft(value:string) { const next={...tcfDrafts,[tcfTaskId]:value}; setTcfDrafts(next); localStorage.setItem("bravo-tcf-drafts",JSON.stringify(next)); queueCloudSync(); }
+  const match = heard && normalize(heard) === normalize(speechTarget||card?.answer);
+  const units = Array.from(new Set(cards.map(c=>`${c.level}|${c.unit}`)));
+  const practiceItem = practiceSets[practiceCategory][practiceIndex];
+  const [practiceBefore, practiceAfter] = practiceItem.sentence.split("___");
+  const tcfTask = tcfTasks.find(task=>task.id===tcfTaskId) || tcfTasks[0];
+  const levelLessons=lessons.filter(lesson=>lesson.level===learnLevel);
+  const lesson=lessons.find(item=>item.id===lessonId) || levelLessons[0];
+  const filteredCourseExercises=courseLevel==="Tous"?courseExercises:courseExercises.filter(exercise=>exercise.level===courseLevel);
+  const courseExercise=filteredCourseExercises[courseIndex%filteredCourseExercises.length];
+  const filteredStories=storyLevel==="Tous"?stories:stories.filter(item=>item.level===storyLevel);
+  const story=stories.find(item=>item.id===storyId) || filteredStories[0] || stories[0];
+  const storySentence=story.sentences[storySentenceIndex%story.sentences.length];
+  const tcfTopics=tcfPromptBank[tcfTaskId];
+  const taskDrills=tcfDrills.filter(drill=>drill.task===tcfTaskId);
+  const tcfDrill=taskDrills[tcfDrillIndex%taskDrills.length];
+  const tcfDraft = tcfDrafts[tcfTaskId] || "";
+  const tcfWordCount = tcfDraft.trim() ? tcfDraft.trim().split(/\s+/).length : 0;
+  const tcfWordState = tcfWordCount < tcfTask.min ? "short" : tcfWordCount > tcfTask.max ? "long" : "good";
+  const timeLesson=timeLessons.find(item=>item.id===timeLessonId)||timeLessons[0];
+  const timeLessonExercises=timeExercises.filter(item=>item.lesson===timeLesson.id);
+  const errorTimeExercises=timeLessonExercises.filter(item=>timeWrongIds.includes(item.id));
+  const activeTimeExercises=(timeOnlyErrors&&errorTimeExercises.length?errorTimeExercises:timeLessonExercises);
+  const timeExercise=activeTimeExercises[timeIndex%Math.max(1,activeTimeExercises.length)]||timeLessonExercises[0];
+  const simulationCounts=simulationDrafts.map(text=>text.trim()?text.trim().split(/\s+/).length:0);
+  const totalTcfTopics=Object.values(tcfPromptBank).reduce((total,items)=>total+items.length,0);
+  const verb=verbs.find(item=>item.id===verbId)||verbs[0];
+  const verbForm=verb.forms[verbTense][verbSubject];
+
+  return <main className="app-shell">
+    <aside className="sidebar">
+      <div className="brand"><span className="brand-mark">B</span><div><strong>Bravo</strong><small>MÃ©moire</small></div></div>
+      <nav aria-label="Navigation principale">
+        <button className={view==="home"?"active":""} onClick={()=>setView("home")}><span>âŒ‚</span> Aujourdâ€™hui</button>
+        <button className={view==="learn"?"active":""} onClick={()=>setView("learn")}><span>â—‡</span> Apprendre</button>
+        <button className={view==="stories"?"active":""} onClick={()=>setView("stories")}><span>â—«</span> Histoires</button>
+        <button className={view==="practice"?"active":""} onClick={()=>setView("practice")}><span>âœŽ</span> Pratique</button>
+        <button className={view==="verbs"?"active":""} onClick={()=>setView("verbs")}><span>V</span> Conjuguer</button>
+        <button className={view==="study"?"active":""} onClick={()=>setView("study")}><span>â–±</span> RÃ©viser</button>
+        <button className={view==="tcf"?"active":""} onClick={()=>setView("tcf")}><span>TCF</span> Ã‰criture TCF</button>
+        <button className={view==="time"?"active":""} onClick={()=>setView("time")}><span>â—·</span> Temps TCF</button>
+        <button className={view==="progress"?"active":""} onClick={()=>setView("progress")}><span>â†—</span> ProgrÃ¨s</button>
+      </nav>
+      <div className="quote">Â« Un peu de franÃ§ais,<br/>chaque jour. Â»</div>
+    </aside>
+
+    <section className="content">
+      {supabaseConfigured&&!cloudSession&&<section className="account-card compact"><div><p className="eyebrow">PROGRESO PERSONAL</p><h2>Guarda tu avance para siempre</h2><p>RecibirÃ¡s un enlace seguro por correo.</p></div><form onSubmit={connectCloud}><input type="email" value={cloudEmail} onChange={event=>setCloudEmail(event.target.value)} placeholder="tu@email.com" required/><button>Conectar</button>{cloudStatus&&<small>{cloudStatus}</small>}</form></section>}
+      {cloudSession&&<p className="cloud-connected">â— {cloudSession.user.email||"Cuenta conectada"} Â· {cloudStatus||"progreso sincronizado"}</p>}
+      {view === "home" && <>
+        <header className="topline"><div><p className="eyebrow">{dayLabel} Â· BONJOUR</p><h1>PrÃªtÂ·e Ã  retrouver<br/><em>vos mots ?</em></h1></div><div className="streak"><span>âœ¦</span><strong>{streak}</strong><small>jours</small></div></header>
+        <section className="hero-card">
+          <div><span className="pill">SESSION DU JOUR</span><h2>{due} cartes Ã  retrouver</h2><p>Un mÃ©lange de vocabulaire, structures et prononciation adaptÃ© Ã  votre mÃ©moire.</p><button className="primary" onClick={()=>setView("study")}>Continuer <span>â†’</span></button></div>
+          <div className="hero-progress"><div className="progress-ring" style={{"--progress":`${percent * 3.6}deg`} as React.CSSProperties}><span>{percent}%</span></div><small>du parcours acquis</small></div>
+        </section>
+        <div className="section-heading"><div><p className="eyebrow">VOTRE PARCOURS</p><h2>Deux niveaux, un mÃªme Ã©lan</h2></div><button className="text-button" onClick={()=>setView("learn")}>Tout voir â†’</button></div>
+        <div className="level-grid">
+          {(["A1","A2"] as const).map((l,i)=>{const total=cards.filter(c=>c.level===l).length;const done=cards.filter(c=>c.level===l&&(memory[c.id]?.reviews||0)>=2).length;return <article className={`level-card level-${l.toLowerCase()}`} key={l}><div className="level-letter">{l}</div><div><small>{i===0?"LES FONDATIONS":"VERS Lâ€™AUTONOMIE"}</small><h3>{i===0?"Je me dÃ©brouille":"Je mâ€™exprime"}</h3><p>{i===0?"PrÃ©sentations, heure, articles et vie quotidienne.":"Projets, comparaisons, pronoms et passÃ© composÃ©."}</p><div className="bar"><i style={{width:`${Math.round(done/total*100)}%`}}/></div><span>{done} / {total} cartes acquises</span></div></article>})}
+        </div>
+        <aside className="pronunciation-banner"><div className="sound-icon">â™ª</div><div><small>PRONONCIATION</small><h3>Faites sonner le franÃ§ais</h3><p>Ã‰coutez, rÃ©pÃ©tez, puis comparez ce que lâ€™app a entendu.</p></div><button onClick={()=>{setLevel("Tous");setView("study");}}>Sâ€™entraÃ®ner â†’</button></aside>
+        <aside className="practice-banner"><div><small>NOUVEAU Â· PHRASES Ã€ COMPLÃ‰TER</small><h3>Pratique ciblÃ©e</h3><p>Verbes, nombres, jours et mois dans de vraies phrases.</p></div><div className="practice-mini-list"><span>Verbes</span><span>Nombres</span><span>Jours</span><span>Mois</span></div><button onClick={()=>setView("practice")}>Pratiquer â†’</button></aside>
+        <aside className="conjugation-banner"><div><small>NUEVO Â· CONJUGACIÃ“N</small><h3>Domina los verbos de verdad</h3><p>Elige persona y tiempo; observa el patrÃ³n y produce la forma.</p></div><button onClick={()=>setView("verbs")}>Conjugar â†’</button></aside>
+        <aside className="tcf-banner"><div className="tcf-badge">TCF</div><div><small>NOUVEAU Â· EXPRESSION Ã‰CRITE 2026</small><h3>Du guide Ã  la pratique</h3><p>Trois tÃ¢ches, des structures Ã  mÃ©moriser et un atelier avec compteur de mots.</p></div><button onClick={()=>setView("tcf")}>PrÃ©parer le TCF â†’</button></aside>
+        <aside className="practice-banner"><div><small>TCF Â· TEMPS & CONNECTEURS</small><h3>Adverbes et expressions de temps</h3><p>Depuis, pendant, pour, en, frÃ©quence et connecteurs pour Ã©crire avec prÃ©cision.</p></div><div className="practice-mini-list"><span>DurÃ©e</span><span>FrÃ©quence</span><span>Connecteurs</span></div><button onClick={()=>setView("time")}>Sâ€™entraÃ®ner â†’</button></aside>
+        <aside className="programme-banner"><div><small>PROGRAMME COMPLET A1â€“A2</small><h3>{lessons.length} microleÃ§ons Â· {courseExercises.length+50} exercices</h3><p>Apprenez la rÃ¨gle, pratiquez activement, puis rÃ©visez ce qui rÃ©siste.</p></div><button onClick={()=>setView("learn")}>Commencer â†’</button></aside>
+        <aside className="story-banner"><div className="story-book">Aa</div><div><small>APPRENDRE PAR Lâ€™INPUT</small><h3>Des histoires qui font vivre la grammaire</h3><p>PrÃ©sent, passÃ© composÃ© et futur proche avec toutes les personnes.</p></div><button onClick={()=>setView("stories")}>Lire une histoire â†’</button></aside>
+      </>}
+
+      {view === "learn" && <section className="learn-view">
+        <div className="learn-heading"><div><p className="eyebrow">PROGRAMME A1â€“A2</p><h1>Comprendre avant<br/><em>de mÃ©moriser.</em></h1><p>Chaque microleÃ§on transforme une partie des cours en rÃ¨gle claire, exemples et pratique active.</p></div><div className="learn-total"><strong>{completedLessons.length}</strong><span>/ {lessons.length}<br/>leÃ§ons terminÃ©es</span></div></div>
+        <div className="learn-levels"><button className={learnLevel==="A1"?"selected":""} onClick={()=>{setLearnLevel("A1");setLessonId(lessons.find(item=>item.level==="A1")?.id||"")}}>A1 Â· Fondations</button><button className={learnLevel==="A2"?"selected":""} onClick={()=>{setLearnLevel("A2");setLessonId(lessons.find(item=>item.level==="A2")?.id||"")}}>A2 Â· Autonomie</button><button className={learnLevel==="B1"?"selected":""} onClick={()=>{setLearnLevel("B1");setLessonId(lessons.find(item=>item.level==="B1")?.id||"")}}>B1 Â· Raconter & convaincre</button></div>
+        <div className="learn-layout">
+          <aside className="lesson-list">{Array.from(new Set(levelLessons.map(item=>item.group))).map(group=><div key={group}><p>{group}</p>{levelLessons.filter(item=>item.group===group).map(item=><button key={item.id} className={lesson.id===item.id?"selected":""} onClick={()=>setLessonId(item.id)}><span className={completedLessons.includes(item.id)?"done":""}>{completedLessons.includes(item.id)?"âœ“":"Â·"}</span>{item.title}</button>)}</div>)}</aside>
+          <article className="lesson-detail"><div className="lesson-meta"><span>{lesson.level}</span><span>{lesson.group}</span></div><p className="eyebrow">OBJECTIF</p><h2>{lesson.title}</h2><p className="lesson-objective">{lesson.objective}</p><div className="lesson-rule"><small>LA RÃˆGLE SIMPLEMENT</small><p>{lesson.rule}</p></div><div className="lesson-examples"><p className="eyebrow">EXEMPLES</p>{lesson.examples.map(([fr,es])=><div key={fr}><strong>{fr}</strong><span>{es}</span></div>)}</div><div className="lesson-pronunciation"><audio ref={audioRef} data-speech={lesson.examples[0][0]} className="native-audio" controls preload="metadata" src={`/audio/lesson-${lesson.id}.mp3`} aria-label={`Prononciation de ${lesson.examples[0][0]}`} onPlay={()=>setAudioStatus("Lectureâ€¦")} onEnded={()=>setAudioStatus("")} onError={(event)=>speakText(event.currentTarget.dataset.speech||"",event.currentTarget.playbackRate<.9)}/><div className="audio-actions"><button onClick={()=>playAudio()}>â–¶ Exemple</button><button onClick={()=>playAudio(true)}>â—Œ Plus lent</button><button className={listening?"recording":""} onClick={()=>record(lesson.examples[0][0])}>â— {listening?"Jâ€™Ã©couteâ€¦":"RÃ©pÃ©ter"}</button></div>{audioStatus&&<p className="audio-status">{audioStatus}</p>}{heard&&speechTarget===lesson.examples[0][0]&&<div className={`heard ${match?"match":""}`}><small>{match?"TRÃˆS BIEN":"Lâ€™APP A ENTENDU"}</small><p>{heard}</p></div>}</div><div className="lesson-keywords">{lesson.keywords.map(word=><span key={word}>{word}</span>)}</div><div className="lesson-actions"><button className="lesson-complete" onClick={()=>toggleLesson(lesson.id)}>{completedLessons.includes(lesson.id)?"âœ“ LeÃ§on terminÃ©e":"Marquer comme terminÃ©e"}</button><button onClick={()=>{setCourseLevel(lesson.level);setPracticeTrack("course");setCourseIndex(0);resetCourseExercise();setView("practice")}}>Pratiquer ce niveau â†’</button></div></article>
+        </div>
+      </section>}
+
+      {view === "stories" && <section className="stories-view">
+        <div className="stories-heading"><div><p className="eyebrow">HISTOIRES Â· INPUT COMPRÃ‰HENSIBLE</p><h1>Voir la grammaire<br/><em>prendre vie.</em></h1><p>Lisez, Ã©coutez, observez les verbes, puis reconstruisez chaque phrase de mÃ©moire.</p></div><div className="stories-progress"><strong>{completedStories.length}</strong><span>/ {stories.length}<br/>histoires mÃ©morisÃ©es</span></div></div>
+        <div className="story-filters">{(["Tous","A1","A2","A2+"] as const).map(item=><button key={item} className={storyLevel===item?"selected":""} onClick={()=>{setStoryLevel(item);const first=item==="Tous"?stories[0]:stories.find(story=>story.level===item);if(first)chooseStory(first.id)}}>{item==="Tous"?"Toutes":item}</button>)}</div>
+        <div className="stories-layout">
+          <aside className="story-list">{filteredStories.map((item,i)=><button key={item.id} className={story.id===item.id?"selected":""} onClick={()=>chooseStory(item.id)}><span>{completedStories.includes(item.id)?"âœ“":String(i+1).padStart(2,"0")}</span><div><strong>{item.title}</strong><small>{item.level} Â· {item.tenses.join(" + ")}</small></div></button>)}</aside>
+          <article className="story-reader"><div className="story-reader-head"><div><div className="story-tags"><span>{story.level}</span>{story.tenses.map(tense=><span key={tense}>{tense}</span>)}</div><h2>{story.title}</h2><p>{story.subtitle}</p></div><button className={completedStories.includes(story.id)?"completed":""} onClick={()=>toggleStoryComplete(story.id)}>{completedStories.includes(story.id)?"âœ“ MÃ©morisÃ©e":"Marquer mÃ©morisÃ©e"}</button></div>
+            <div className="story-tools"><button className={storyTranslation?"active":""} onClick={()=>setStoryTranslation(value=>!value)}>ES {storyTranslation?"visible":"masquÃ©"}</button><button className={storyVerbs?"active":""} onClick={()=>setStoryVerbs(value=>!value)}>Verbes {storyVerbs?"surlignÃ©s":"simples"}</button><span>{story.focus}</span></div>
+            <div className="story-text">{story.sentences.map((sentence,i)=><div key={sentence.fr} className={storySentenceIndex===i?"current":""} onClick={()=>{setStorySentenceIndex(i);setStoryRecall("");setStoryRecallResult(null)}}><span>{i+1}</span><p>{storyVerbs?storyText(sentence.fr):sentence.fr}{storyTranslation&&<small>{sentence.es}</small>}</p></div>)}</div>
+            <div className="story-audio"><p className="story-voice-note">Voix franÃ§aise intÃ©grÃ©e Ã  votre navigateur</p><div className="audio-actions"><button onClick={()=>speakStory()}>â–¶ Ã‰couter</button><button onClick={()=>speakStory(true)}>â—Œ Plus lent</button></div>{audioStatus&&<p className="audio-status">{audioStatus}</p>}</div>
+            {storyVerbs&&<div className="story-verb-map"><p className="eyebrow">CARTE DES VERBES</p><div>{story.verbs.map(verb=><article key={`${verb.form}-${verb.person}`}><strong>{verb.form}</strong><span>{verb.infinitive} Â· {verb.es}</span><small>{verb.person} Â· {verb.tense}</small></article>)}</div></div>}
+            <section className="story-memory"><div className="story-memory-head"><div><p className="eyebrow">RECONSTRUIRE DE MÃ‰MOIRE</p><h3>Phrase {storySentenceIndex+1} / {story.sentences.length}</h3></div><div><button onClick={()=>moveStorySentence(-1)}>â†</button><button onClick={()=>moveStorySentence(1)}>â†’</button></div></div><p className="memory-cue">{storySentence.es}</p><input value={storyRecall} onChange={event=>{setStoryRecall(event.target.value);if(storyRecallResult)setStoryRecallResult(null)}} placeholder="RÃ©Ã©crivez la phrase en franÃ§aisâ€¦"/><div className="memory-actions"><button disabled={!storyRecall.trim()} onClick={checkStoryRecall}>VÃ©rifier</button><button className={listening?"recording":""} onClick={()=>record(storySentence.fr)}>â— {listening?"Jâ€™Ã©couteâ€¦":"Dire la phrase"}</button></div>{storyRecallResult&&<div className={`memory-result ${storyRecallResult}`}><strong>{storyRecallResult==="correct"?"âœ“ Parfait !":"Comparez puis rÃ©essayez :"}</strong><p>{storySentence.fr}</p></div>}{heard&&speechTarget===storySentence.fr&&<div className={`heard ${match?"match":""}`}><small>{match?"TRÃˆS BIEN":"Lâ€™APP A ENTENDU"}</small><p>{heard}</p></div>}</section>
+          </article>
+        </div>
+      </section>}
+
+      {view === "study" && card && <section className="study-view">
+        <header className="study-header"><button className="back" onClick={()=>setView("home")}>â† Aujourdâ€™hui</button><div className="session-progress"><i style={{width:`${((index+1)/Math.min(12,studyCards.length))*100}%`}}/></div><span>{(index%12)+1} / 12</span></header>
+        <div className="study-filters"><button className={level==="Tous"?"selected":""} onClick={()=>{setLevel("Tous");setIndex(0);setRevealed(false)}}>Mix</button><button className={level==="A1"?"selected":""} onClick={()=>{setLevel("A1");setIndex(0);setRevealed(false)}}>A1</button><button className={level==="A2"?"selected":""} onClick={()=>{setLevel("A2");setIndex(0);setRevealed(false)}}>A2</button><button className={level==="Verbes"?"selected":""} onClick={()=>{setLevel("Verbes");setIndex(0);setRevealed(false)}}>Verbes</button></div>
+        <article className="flashcard">
+          <div className="card-meta"><span>{card.translationEn?"VERBE":card.level}</span><span>{card.type}</span><span>{card.unit}</span></div>
+          <p className="prompt-label">{card.translationEn?"QUE VEUT DIRE CE VERBE ?":"DITES-LE EN FRANÃ‡AIS"}</p><h2>{card.prompt}</h2>
+          {!revealed ? <button className="reveal" onClick={()=>setRevealed(true)}>Afficher la rÃ©ponse</button> : <div className="answer-zone"><div className="divider"/>{card.translationEn?<><div className="verb-translations"><div><small>ENGLISH</small><strong>{card.translationEn}</strong></div><div><small>ESPAÃ‘OL</small><strong>{card.translationEs}</strong></div></div><p className="hint">Ã‰coutez puis rÃ©pÃ©tez le verbe en franÃ§ais.</p></>:<><p className="answer">{card.answer}</p><p className="hint">{card.hint}</p></>}<audio ref={audioRef} data-speech={card.answer} className="native-audio" controls preload="metadata" src={`/audio/${card.id}.mp3`} aria-label={`Prononciation de ${card.answer}`} onPlay={()=>setAudioStatus("Lectureâ€¦")} onEnded={()=>setAudioStatus("")} onError={(event)=>speakText(event.currentTarget.dataset.speech||"",event.currentTarget.playbackRate<.9)}/><div className="audio-actions"><button onClick={()=>playAudio()}>â–¶ Ã‰couter</button><button onClick={()=>playAudio(true)}>â—Œ Plus lent</button><button className={listening?"recording":""} onClick={()=>record(card.answer)}>â— {listening?"Jâ€™Ã©couteâ€¦":"Ma voix"}</button></div>{audioStatus&&<p className="audio-status" role="status">{audioStatus}</p>}{heard&&<div className={`heard ${match?"match":""}`}><small>{match?"Lâ€™APP A ENTENDU":"AIDE MICROPHONE"}</small><p>{heard}</p>{match&&<strong>TrÃ¨s bien !</strong>}</div>}</div>}
+        </article>
+        {revealed && <div className="rating"><p>Comment Ã©tait votre souvenir ?</p><div><button onClick={()=>rate(1)}><span>â†º</span>Difficile</button><button onClick={()=>rate(3)}><span>â‰ˆ</span>Presque</button><button className="good" onClick={()=>rate(5)}><span>âœ“</span>Je savais</button></div></div>}
+      </section>}
+
+      {view === "practice" && <section className="practice-view">
+        <div className="practice-title-row"><div><p className="eyebrow">PRATIQUE ACTIVE</p><h1>Construisez vos rÃ©flexes</h1><p className="lead">ReconnaÃ®tre, retrouver, ordonner et transformer : quatre chemins vers la mÃ©moire.</p></div><div className="practice-score"><strong>{practiceTrack==="course"?courseStats.correct:practiceScore.correct}</strong><span>/ {practiceTrack==="course"?courseStats.total:practiceScore.total}</span><small>bonnes rÃ©ponses</small></div></div>
+        <div className="practice-track"><button className={practiceTrack==="course"?"selected":""} onClick={()=>{setPracticeTrack("course");resetCourseExercise()}}>Parcours complet</button><button className={practiceTrack==="reflexes"?"selected":""} onClick={()=>setPracticeTrack("reflexes")}>Verbes, nombres & calendrier</button></div>
+        {practiceTrack==="course"?<>
+          <div className="course-filters">{(["Tous","A1","A2","B1"] as const).map(item=><button key={item} className={courseLevel===item?"selected":""} onClick={()=>{setCourseLevel(item);setCourseIndex(0);resetCourseExercise()}}>{item==="Tous"?"Mix A1â€“B1":item}</button>)}</div>
+          <article className="course-exercise"><div className="course-exercise-meta"><span>{courseExercise.level}</span><span>{courseExercise.skill}</span><small>{courseIndex%filteredCourseExercises.length+1} / {filteredCourseExercises.length}</small></div><p className="course-mode">{courseExercise.mode==="choice"?"RECONNAÃŽTRE":courseExercise.mode==="reorder"?"CONSTRUIRE":courseExercise.mode==="transform"?"TRANSFORMER":"RETROUVER"}</p><h2>{courseExercise.prompt}</h2>
             {courseExercise.mode==="choice"&&<div className="choice-options">{courseExercise.options?.map(option=><button key={option} className={courseInput===option?"selected":""} onClick={()=>{if(!courseResult)setCourseInput(option)}}>{option}</button>)}</div>}
             {courseExercise.mode==="reorder"&&<><div className="built-sentence">{courseInput||"Construisez la phraseâ€¦"}</div><div className="word-tokens">{courseExercise.tokens?.map((token,i)=><button key={`${token}-${i}`} disabled={courseSelected.includes(i)||!!courseResult} onClick={()=>{setCourseSelected(items=>[...items,i]);setCourseInput(value=>value?`${value} ${token}`:token)}}>{token}</button>)}</div><button className="clear-order" disabled={!courseInput||!!courseResult} onClick={()=>{setCourseInput("");setCourseSelected([])}}>Effacer</button></>}
             {(courseExercise.mode==="fill"||courseExercise.mode==="transform")&&<input className="course-answer" value={courseInput} onChange={event=>{setCourseInput(event.target.value);if(courseResult)setCourseResult(null)}} placeholder="Ã‰crivez votre rÃ©ponseâ€¦" autoComplete="off"/>}
@@ -188,4 +525,3 @@ const tcfTasks: TcfTask[] = [
     <nav className="mobile-nav"><button className={view==="home"?"active":""} onClick={()=>setView("home")}><span>âŒ‚</span>Jour</button><button className={view==="learn"?"active":""} onClick={()=>setView("learn")}><span>â—‡</span>Apprendre</button><button className={view==="stories"?"active":""} onClick={()=>setView("stories")}><span>â—«</span>Histoires</button><button className={view==="practice"?"active":""} onClick={()=>setView("practice")}><span>âœŽ</span>Pratique</button><button className={view==="verbs"?"active":""} onClick={()=>setView("verbs")}><span>V</span>Verbos</button><button className={view==="tcf"?"active":""} onClick={()=>setView("tcf")}><span>TCF</span>Ã‰crire</button><button className={view==="time"?"active":""} onClick={()=>setView("time")}><span>â—·</span>Temps</button><button className={view==="progress"?"active":""} onClick={()=>setView("progress")}><span>â†—</span>ProgrÃ¨s</button></nav>
   </main>
 }
-
