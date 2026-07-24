@@ -273,6 +273,11 @@ export default function Home() {
   function playAudio(slow=false) {
     const audio = audioRef.current;
     if (!audio) return;
+    const fallback = audio.dataset.speech || "";
+    if (audio.error || audio.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) {
+      speakText(fallback, slow);
+      return;
+    }
     audio.pause();
     audio.currentTime = 0;
     audio.playbackRate = slow ? .72 : 1;
@@ -282,6 +287,7 @@ export default function Home() {
   function speakText(text:string, slow=false) {
     if (!("speechSynthesis" in window)) { setAudioStatus("Tu navegador no permite la voz integrada. Prueba en Chrome, Edge o Safari."); return; }
     window.speechSynthesis.cancel();
+    window.speechSynthesis.resume();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "fr-FR";
     utterance.rate = slow ? .72 : 1;
