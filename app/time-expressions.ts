@@ -67,4 +67,3 @@ q("te46","review","translate","Traduce: Â«Antes, vivÃ­a en Lyon; ahora vivo 
 q("te47","review","correct","Corrige: Â«Depuis trois heures, jâ€™ai Ã©tudiÃ©.Â»","Jâ€™Ã©tudie depuis trois heures","La acciÃ³n sigue ahora.","Con desde hace + acciÃ³n actual se usa el presente."),
 q("te48","review","reorder","Ordena la frase.","RÃ©cemment jâ€™ai commencÃ© un cours de franÃ§ais","Adverbio temporal al inicio.","RÃ©cemment sitÃºa un hecho prÃ³ximo en el pasado.",undefined,["un cours de franÃ§ais","jâ€™ai commencÃ©","RÃ©cemment"]),
 ];
-
